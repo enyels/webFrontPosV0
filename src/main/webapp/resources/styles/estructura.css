@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document Maquetado para 1024 * 768 */
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	width: 100%;
+	height: 100%;
+	color: #555555;
+}
+
+div,ul,li,p,a,span,img,input,textarea,select {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#wrapAll {
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+#soloBackLoad {
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	position: absolute;
+	z-index: 100;
+	display: none;
+	opacity: 0.7;
+	filter: alpha(opacity : 70);
+	left: 0px;
+	top: 0px;
+}
+
+#header {
+	background-color: #78B536;
+	box-shadow: 0 3px 6px #CCCCCC;
+	float: left;
+	height: 60px;
+	overflow: hidden;
+	padding-top: 13px;
+	width: 100%;
+}
+
+#container {
+	float: left;
+	height: 60px;
+	padding-left: 15%;
+	padding-right: 15%;
+	position: relative;
+	width: 70%;
+}
+
+#logo {
+	background: url(../images/logoHeader.png) no-repeat;
+	float: left;
+	height: 53px;
+	position: relative;
+	width: 95px;
+}
+.infoUsuario{ float: left; position: relative; height: 60px; width: 170px; margin-left: 60px; line-height:18px; display: none;}
+.infoUsuario2{ float: left; position: relative; height: 60px; width: 280px; margin-left: 12px; line-height:18px; display: none;}
+.textoUser {
+	float: left;
+	position: relative;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 72%;
+}
+#closesesion {
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	float: right;
+	font-size: 72%;
+	line-height: 15px;
+	margin: 10px 0 0;
+	padding: 3px 4px;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	display: none;
+}
+#closesesion:hover{background-color: #488506;}
+
+#versionSis {
+	bottom: 1px;
+	color: #FFFFFF;
+	float: right;
+	font-size: 60%;
+	margin-right: -80px;
+	margin-top: 40px;
+	position: relative;
+	display: none;
+}
+
+#wrapcontent {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 15px;
+}
+
+#contentDinami{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.wrappTxtLogin {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 42px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.titleLogin {
+	color: #78B536;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 28px;
+/* 	font-weight: bold; */
+/* 	line-height: 35px; */
+/* 	margin-bottom: 18px; */
+/* 	text-align: left; */
+}
+
+.columnas {
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 270px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.txtTitleIn {
+	float: left;
+	position: relative;
+	width: 320px;
+/* 	height: 15px; */
+/* 	font-size: 14px; */
+/* 	font-weight: bold; */
+/* 	text-align: left; */
+	margin-top: 10px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.txtNormalIn {
+	float: left;
+	position: relative;
+	width: 270px;
+	height: 40px;
+/* 	text-align: left; */
+	margin-top: 10px;
+/* 	font-size: 14px; */
+	font-family: 'Roboto', sans-serif;
+}
+
+.estiloInput{
+	float: left;
+	position: relative;
+	display: block;
+	height: 25px;
+	font-size: 14px;
+	font-family: "Arial";
+	color: #666;
+	text-align: left;
+	border: 1px solid #ccc;
+	padding-left: 2%;
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.loginErrors{ float: left; position: relative; color: #B31221; margin-top: 10px; width: 100%; display: none; }
+/* .loginErrors0{ float: left; position: relative; color: #B31221; margin-top: 10px; width: 100%; display: none; } */
+/* .loginErrors1{ float: left; position: relative; color: #B31221; margin-top: 10px; width: 100%; display: none; } */
+/* .loginErrors2{ float: left; position: relative; color: #B31221; margin-top: 10px; width: 100%; display: none; } */
+/* .loginErrors3{ float: left; position: relative; color: #B31221; margin-top: 10px; width: 100%; display: none; } */
+
+.contentBtnLogin{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 70px;
+}
+.estiloBtnLog{
+	background-color: #78B536;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	float: left;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+/* 	font-weight: bold; */
+	height: 26px;
+	line-height: 26px;
+	margin-top: 30px;
+	padding: 0px;
+	text-transform: uppercase;
+	width: 250px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.estiloBtnLog:hover{background-color:#488506;}
+
+.forgotPassword{
+	float: left;
+	position: relative;
+	color: #78B536;
+	text-decoration: none;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+/* Estilos Administrador */
+.contentAdmin{float: left; position: relative; width: 100%; height: 100%;}
+/* Estilos Vendedor */
+.contentVendedor{float: left; position: relative; width: 100%;}
+.wrapMenu{float: left; position: relative; width: 100%; height: 22px; height: 100%; box-shadow: 0 3px 6px #CCCCCC;}
+.opcionMenu{float: left; position: relative; width: 25%; height: 23px; padding-top: 2px; background: #488506; text-align: center;}
+.estilosTxtMenu{text-align: center; color: #FFFFFF; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; font-weight: bold; text-decoration: none;}
+.txtOpcAdmin:hover{ background: #ff9340;} /*#ff6e00*/
+/* Estilos contenido opcion menu */
+.wrapOpcMenu{float: left; position: relative; width: 100%; height: 100%; margin-top: 15px;}
+.wrapOpcProductos{float: left; position: relative; width: 100%; height: 100%;}
+.txtTituloOpcGral {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 21px;
+	background: #3C3C3C;
+}
+
+.contentBuscarProd{float: left; position: relative; width: 100%; height: 138px;}
+.areaBuscar{float: left; position: relative; width: 50%; height: 100px; padding-top: 8px;}
+.txtBuscarGral{float: left; position: relative; width: 30%; height: 30px; padding-top: 20px; padding-left: 5%;}
+	.estilotxtBuscar {
+		color: #3C3C3C;
+		font-family: 'Droid Sans', sans-serif;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+.boxParaInputs{float: left; position: relative; width: 45%; height: 50px;}
+	.inBuscar {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 23px;
+	margin-top: 13px;
+	border: 1px solid #ccc;
+	padding-left: 5px;
+}
+
+.areaBtnBus{float: left; position: relative; width: 100%; height: 20px; margin-top: 10px;}
+.btnBusProducto{float: right; margin-top: 0px; width: 170px; height: 23px; line-height: 24px;}
+.separadorTable{float: left; position: relative; width: 100%; border-bottom: 1px solid #ccc; margin-top: 10px; margin-bottom: 10px;}
+.txtTituloResBus {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 21px;
+	background: #3C3C3C; /*#488506*/
+}
+
+.opcHeadT{float: left; position: relative; height: 100%; width: 16.666%;}
+.estiloTable{float: left; position: relative; width: 100%; border-spacing: 0; }
+.txtContenidoT{font-family: Verdana; color: #3C3C3C; font-size: 8pt; text-align: center;}
+.textoIzqT{text-align: left; padding-left: 2%;}
+.headTituloT{background-color: #3C3C3C; height: 18px;}
+.espacioCeldas{line-height: 22px;}
+.estiloPaginador{float: right;}
+.movPaginador{cursor: pointer;}
+
+/*Estilo Opc Cotizacion*/
+.wrapBusCot{position: relative; float: left; width:100%; height: 100%;}
+.areaBusCot{position: relative; float: left; width: 100%; height: 100px;}
+.areaBusCotGraf{position: relative; float: left; width: 100%; height: 290px;}
+.areaCotInputs{position: relative; float: left; width: 100%; height: 50px;}
+.boxCotInputs{position: relative; float: left; margin-left: 3%; width: 47%; height: 50px;}
+.wraptxtBefInput{float: left; position: relative; width: 20%; height: 35px; margin-top: 15px;}
+	.txtBefInput{color: #3C3C3C; font-family: Verdana,Arial,Helvetica,san-serif; margin-top: 15px; font-size: 10pt; font-weight: bold; }
+.wrapInputCot{float: left; position: relative; width: 80%; height: 40px; margin-top: 10px;}
+	.inBuscarCot{float: left; position: relative; width: 50%; height: 23px; border: 1px solid #ccc; padding-left: 5px;}
+ 	.inBuscarCotRes{width: 95%;}
+.buscot{float: left; position: relative; width: 9.285%; height: 50px; margin-left: 3%;}
+.buscot2{width: 14.285%; margin-left: 0%;}
+	.inBuscarCot2{width: 67%; margin-top: 12px; text-align: right; padding-right: 3%;}
+.wrapCntBtn{width: 20%; margin-left: 0px;}
+.btnAgregarCot{ float: right; margin-top: 14px; width: 100%; height: 24px; line-height: 23px;}
+.btnAgregarVenta{ float: right; margin-top: 14px; width: 100%; height: 24px; line-height: 23px;}
+.wrapAreaTtalCot{float: left; position: relative; width: 100%; height: 50px;}
+.ctAreaTotalCot{float: right; position: relative; width: 15%; height: 50px;}
+.txtDineroGen{color: #3C3C3C; font-family: Helvetica,Arial; margin-top: 12px; font-size: 18pt; font-weight: bold; }
+.totalBigCot{float: left; position: relative; width: 98%; height: 30px; border: 1px solid #ccc; font-size: 23px; margin-top: 10px; color: #FF0000;}
+.wrapCttBtnsCot{float: left; position: relative; width: 100%; height: 25px; margin-top: 10px;}
+.ctttwobtn{float: right; position: relative; width: 20%;}
+.btnSendCot{float: right; position: relative; width: 90%; height: 25px; margin-top: 0px;}
+.btnBusProdCot{float: left; position: relative; width: 25%; height: 25px; margin-top: 0px; margin-left: 15px;}
+
+/* Estilos Modal*/
+.wrapModGen{width: 600px; height: 400px; top: 80px; left:350px; position: absolute; z-index: 102; background: #FFFFFF; display: none; border-radius: 8px;}
+.wrapModGenHead{width: 600px; height: 30px; background: #78B536;  margin-top: 10px;}
+.cttLogGenHdr{float: left; position: relative; width: 55px; height: 27px; margin-top: 3px; margin-left: 25px;}
+.logGenHdr{background: url("../images/lupaBuscar.gif") no-repeat;}
+.cttTxtGenHdr{float: left; position: relative; width: 250px; height: 25px; margin-top: 5px;}
+.cttClsModGen{float: right; position: relative;width: 80px; height: 30px;}
+.txtClsModGen{color: #FFFFFF; font-family: Helvetica;font-size: 12pt; font-weight: bold; text-decoration: none; float: right; margin-right: 5px; margin-top: 5px;}
+.txtGenHdr{color: #FFFFFF; font-family: Helvetica;font-size: 12pt; font-weight: bold;}
+.wrapSearchModSmall{width: 100%; height: 350px; margin-top: 10px;}
+.wrapAreaBuscarMod{width: 100%; height: 40px; padding-top: 10px; }
+.nomMod{float: left; position: relative; height: 22px; width: 75px; padding-left: 25px; padding-top: 3px;}
+.inNomMod{float: left;}
+.onlytxtMod{color: #3C3C3C; font-family: Helvetica; font-size: 10pt; font-weight: bold; }
+.btnBusByNom{float: left;position: relative;width: 25%;height: 25px;margin-top: 0px;margin-left: 15px;margin-bottom: 0px;}
+.wrapResultSearch{float:left; position: relative; width: 98%; height: 300px; padding: 0 1%;}
+
+/* Modal Pagar */
+.wrapModGenSmall{width: 450px; height: 290px; top: 80px; left:350px; position: absolute; z-index: 102; display: none; border-radius: 8px; background: #FFFFFF}
+.wrapModGenHeadSamll{width: 450px; height: 30px; background: #78B536;  margin-top: 10px;}
+.wrapSearchModSmall{width: 100%; height: 230px; margin-top: 10px;}
+.sectionsLabels{float: left; position: relative; width: 80%; height: 15%; padding-top: 5%; padding-left: 20%;}
+.textoPagar{float: left; position: relative; font-size: 20px; font-weight: bold; width: 125px; padding-right: 5px;}
+.textoPagarAlign{text-align: right;}
+.txtInputPagar{font-size: 20px; width: 125px; text-align: right; padding-right:5px; border: 1px solid #ccc;}
+.contentBtnPagar{float: right; position: relative; width: 25%; height: 30px; margin-right: 100px;}
+.estiloBtnPagar{background-color: #78B536; border-radius: 3px; border: none; color: #fff; font-weight: bold; text-transform: uppercase; text-align: center; text-decoration: none; float: right; position: relative; height: 25px; width: 100%; padding-top: 5px;}
+
+/* Home Admin */
+.opcionMenuAdmin {
+	float: left;
+	position: relative;
+	width: 16.666%;
+	height: 23px;
+	padding-top: 2px;
+	background: #488506;
+	text-align: center;
+}
+
+.btnAdmBusPdv {
+	float: right;
+	margin-top: -6px;
+	width: 130px;
+	height: 24px;
+	line-height: 23px;
+	margin-left: 20px;
+}
+/* Area Nvo Prod */
+.contentNvoAdmProd{float: left; position: relative; width: 100%; height: 310px;}
+.areaNvoAdmProd{float: left; position: relative; width: 50%; height: 40px; padding-top: 8px;}
